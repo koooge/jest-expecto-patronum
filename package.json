@@ -1,0 +1,23 @@
+{
+  "name": "jest-expecto-patronum",
+  "version": "0.0.1",
+  "description": "Jest matcher expecto patronum!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koooge/jest-expecto-patronum.git"
+  },
+  "keywords": ["jest"],
+  "author": "koooge <koooooge@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koooge/jest-expecto-patronum/issues"
+  },
+  "homepage": "https://github.com/koooge/jest-expecto-patronum#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
