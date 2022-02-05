@@ -1,5 +1,5 @@
 # jest-expecto-patronum
-Jest matcher expecto patronum!
+Jest matcher Expecto Patronum!
 
 ## Installation
 With npm:
@@ -10,12 +10,12 @@ npm install -D jest-expecto-patronum
 
 ## Usage
 
-## .patronum()
+### .patronum()
 Use `.patronum` when checking if a value is `patronum`.
 
 ```js
-const matcher = require('jest-expecto-patronum');
-expect.extend(matcher);
+const patronum = require('jest-expecto-patronum');
+expect.extend(patronum);
 
 it('should be patronum', () => {
   const o = 'patronum';
