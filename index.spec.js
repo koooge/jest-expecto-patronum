@@ -3,10 +3,12 @@ const matcher = require('./index');
 expect.extend(matcher);
 
 describe('.patoronum', () => {
-  it('Expecto Patronum!', () => {
-    const o = 'patronum';
-    expect(o).patronum();
-  });
+  it.each([['patronum'], ['Patronum'], ['PATRONUM'], ['Patronum!'], ['patronum!!!!!!'], ['Patrroooonuuum']])(
+    'Expecto Patronum!',
+    o => {
+      expect(o).patronum();
+    },
+  );
 
   it.each([[false], [true], [''], [2], [{}], [() => {}], [undefined], [null], [NaN]])(
     'not Expect Patronum',

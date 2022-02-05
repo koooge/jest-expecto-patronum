@@ -11,7 +11,7 @@ const failMessage = (utils, received) => () =>
   `  ${utils.printReceived(received)}`;
 
 const toPatronum = (expected) => {
-  const pass = /patronum/i.test(expected);
+  const pass = /^p+a+t+r+o+n+u+m+!*$/i.test(expected);
 
   if (pass) return {pass: true, message: () => 'patronum'};
   return {pass: false, message: () => 'not patronum'};
