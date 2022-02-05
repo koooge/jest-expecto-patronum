@@ -1,4 +1,4 @@
-# jest-expecto-patronum
+# jest-expecto-patronum (Joke Library)
 Jest matcher Expecto Patronum!
 
 ## Installation
