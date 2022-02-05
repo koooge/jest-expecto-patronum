@@ -2,7 +2,7 @@ const matcher = require('./index');
 
 expect.extend(matcher);
 
-describe('.patoronum', () => {
+describe('.patronum', () => {
   it.each([['patronum'], ['Patronum'], ['PATRONUM'], ['Patronum!'], ['patronum!!!!!!'], ['Patrroooonuuum']])(
     'Expecto Patronum!',
     o => {
