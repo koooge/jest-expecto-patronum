@@ -1,6 +1,6 @@
 {
   "name": "jest-expecto-patronum",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Jest matcher expecto patronum!",
   "main": "index.js",
   "scripts": {
